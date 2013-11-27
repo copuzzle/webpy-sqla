@@ -1,0 +1,5 @@
+$def with (names ,urls,realhome)
+<ul>
+$for i in xrange(len(names)):
+        <li><a href="$realhome$urls[i]">$names[i].lower()</a></li>
+</ul>
